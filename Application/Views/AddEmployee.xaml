@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Application.Views.AddEmployee"
+             xmlns:viewmodels="clr-namespace:Application.ViewModels"
+             x:DataType="viewmodels:AddEmployeeViewModel"
+             xmlns:cv="clr-namespace:Camera.MAUI;assembly=Camera.MAUI"
+             Title="AddEmployee">
+    <ScrollView>
+        <VerticalStackLayout>
+            <VerticalStackLayout Padding="10"  BackgroundColor="Beige">
+                <Label Text="Employee Name" FontSize="16"/>
+                <Entry x:Name="nameEntryField" Text="{Binding EmployeeProp.EmployeeName}" Placeholder="Name"/>
+                <Label Text="Email" FontSize="16"/>
+                <Entry x:Name="emailEntryField" Text="{Binding EmployeeProp.Email}" Placeholder="Email"/>
+                <Label Text="Mobile" FontSize="16"/>
+                <Entry x:Name="mobileEntryField" Text="{Binding EmployeeProp.Mobile}" Placeholder="Mobile"/>
+                <!--<DatePicker x:Name="dateEntryField" Date="{Binding Employee.JoinedDate}" MinimumDate="01/01/2000"
+         MaximumDate="03/03/2024"
+          />-->
+
+                <Label Text="Joined Date" FontSize="16"/>
+                <DatePicker Date="{Binding EmployeeProp.JoinedDate}" />
+                <Label Text="Department" FontSize="16"/>
+                <Picker x:Name="pickerEntryField" SelectedItem="{Binding EmployeeProp.Department}"
+            Title="Select your department"> 
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Testing</x:String>
+                            <x:String>DNS</x:String>
+                            <x:String>ATM</x:String>
+                            <x:String>BIBA</x:String>
+                            <x:String>HR</x:String>
+                            <x:String>Social</x:String>
+                            <x:String>CA</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource> 
+                </Picker>
+
+
+
+                <StackLayout>
+                    <Button x:Name="TakePhoto"
+                            BackgroundColor="Red"
+                            Command="{Binding CaptureEmployeePhotoCommand}"
+                            Text="Capture Employee Photo"
+                            />
+
+                    <Image 
+                            x:Name="TakeEmpPhoto"
+                            Source="{Binding CompleteEmployeePhotoPath,Mode=TwoWay}" 
+                            IsVisible="{Binding HasPhoto}"
+                            HeightRequest="450" 
+                            VerticalOptions="FillAndExpand"/>
+
+                </StackLayout>
+
+
+
+
+
+                <!--<VerticalStackLayout Spacing="25" Padding="30,0" VerticalOptions="Fill" HorizontalOptions="Fill">
+                    <cv:CameraView x:Name="cameraVIew" WidthRequest="300" HeightRequest="300" CamerasLoaded="cameraView_CamerasLoaded"/>
+
+                    <Button Text="Click" Clicked="Button_Clicked"/>
+                    <Image x:Name="clickedImage" WidthRequest="200" HeightRequest="200"/>
+                </VerticalStackLayout>-->
+                <Button Text="Save" Command="{Binding SaveButtonCommand}"/>
+
+            </VerticalStackLayout>
+
+
+           
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

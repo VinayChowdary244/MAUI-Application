@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Application</name>
+    </assembly>
+    <members>
+        <member name="T:Application.ViewModels.AddEmployeeViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Application.ViewModels.AddEmployeeViewModel.EmployeeProp">
+            <inheritdoc cref="F:Application.ViewModels.AddEmployeeViewModel._employeeProp"/>
+        </member>
+        <member name="P:Application.ViewModels.AddEmployeeViewModel.Employee">
+            <inheritdoc cref="F:Application.ViewModels.AddEmployeeViewModel._employee"/>
+        </member>
+        <member name="F:Application.ViewModels.AddEmployeeViewModel.saveButtonCommand">
+            <summary>The backing field for <see cref="P:Application.ViewModels.AddEmployeeViewModel.SaveButtonCommand"/>.</summary>
+        </member>
+        <member name="P:Application.ViewModels.AddEmployeeViewModel.SaveButtonCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Application.ViewModels.AddEmployeeViewModel.SaveButton"/>.</summary>
+        </member>
+        <member name="T:Application.ViewModels.EmployeesListViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Application.ViewModels.EmployeesListViewModel.IsCollectionViewVisible">
+            <inheritdoc cref="F:Application.ViewModels.EmployeesListViewModel.isCollectionViewVisible"/>
+        </member>
+        <member name="F:Application.ViewModels.EmployeesListViewModel.getEmployeeListCommand">
+            <summary>The backing field for <see cref="P:Application.ViewModels.EmployeesListViewModel.GetEmployeeListCommand"/>.</summary>
+        </member>
+        <member name="P:Application.ViewModels.EmployeesListViewModel.GetEmployeeListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Application.ViewModels.EmployeesListViewModel.GetEmployeeList"/>.</summary>
+        </member>
+        <member name="T:Application.ViewModels.MainPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:Application.ViewModels.MainPageViewModel.navigateCommand">
+            <summary>The backing field for <see cref="P:Application.ViewModels.MainPageViewModel.NavigateCommand"/>.</summary>
+        </member>
+        <member name="P:Application.ViewModels.MainPageViewModel.NavigateCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Application.ViewModels.MainPageViewModel.Navigate"/>.</summary>
+        </member>
+        <member name="F:Application.ViewModels.MainPageViewModel.navigateEmployeeListCommand">
+            <summary>The backing field for <see cref="P:Application.ViewModels.MainPageViewModel.NavigateEmployeeListCommand"/>.</summary>
+        </member>
+        <member name="P:Application.ViewModels.MainPageViewModel.NavigateEmployeeListCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Application.ViewModels.MainPageViewModel.NavigateEmployeeList"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EmployeeProp">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EmployeeProp" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Employee">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Employee" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsCollectionViewVisible">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsCollectionViewVisible" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EmployeeProp">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EmployeeProp" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Employee">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Employee" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsCollectionViewVisible">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsCollectionViewVisible" generated properties.</summary>
+        </member>
+    </members>
+</doc>

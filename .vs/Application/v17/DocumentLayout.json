@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Games\\Maui\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81E8BD34-77FD-45E4-995C-D9468EC6438C}|Application\\Application.csproj|d:\\games\\maui\\application\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{81E8BD34-77FD-45E4-995C-D9468EC6438C}|Application\\Application.csproj|solutionrelative:application\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E8BD34-77FD-45E4-995C-D9468EC6438C}|Application\\Application.csproj|d:\\games\\maui\\application\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E8BD34-77FD-45E4-995C-D9468EC6438C}|Application\\Application.csproj|solutionrelative:application\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Games\\Maui\\Application\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Application\\App.xaml.cs",
+              "ToolTip": "D:\\Games\\Maui\\Application\\App.xaml.cs",
+              "RelativeToolTip": "Application\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:06:20.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\Games\\Maui\\Application\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Application\\AppShell.xaml",
+              "ToolTip": "D:\\Games\\Maui\\Application\\AppShell.xaml",
+              "RelativeToolTip": "Application\\AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-28T12:01:23.467Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
