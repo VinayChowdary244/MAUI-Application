@@ -105,50 +105,52 @@ namespace Application.ViewModels
             set => SetProperty(ref _hasPhoto, value);
 
         }
-        public async void SaveButton_Clicked(object sender, EventArgs e)
-        {
+
+        //------------------------------------------------------------------------trial code---------------------
+        //public async void SaveButton_Clicked(object sender, EventArgs e)
+        //{
 
 
-            if (_editCustomerId == 0)
-            {
-                await _dbService.Create(new Employee
-                {
-                    EmployeeName = Employee.EmployeeName,
-                    Email = Employee.Email,
-                    Mobile = Employee.Mobile,
-                    Department = Employee.Department,
-                    JoinedDate = Employee.JoinedDate,
-                    Image =CompleteEmployeePhotoPath
+        //    if (_editCustomerId == 0)
+        //    {
+        //        await _dbService.Create(new Employee
+        //        {
+        //            EmployeeName = Employee.EmployeeName,
+        //            Email = Employee.Email,
+        //            Mobile = Employee.Mobile,
+        //            Department = Employee.Department,
+        //            JoinedDate = Employee.JoinedDate,
+        //            Image =CompleteEmployeePhotoPath
 
 
-                });
-            }
-            else
-            {
-                await _dbService.Update(new Employee
-                {
-                    Id = _editCustomerId,
-                    EmployeeName = Employee.EmployeeName,
-                    Email = Employee.Email,
-                    Mobile = Employee.Mobile,
-                    Department = Employee.Department,
-                    JoinedDate = Employee.JoinedDate,
-                    Image = CompleteEmployeePhotoPath
+        //        });
+        //    }
+        //    else
+        //    {
+        //        await _dbService.Update(new Employee
+        //        {
+        //            Id = _editCustomerId,
+        //            EmployeeName = Employee.EmployeeName,
+        //            Email = Employee.Email,
+        //            Mobile = Employee.Mobile,
+        //            Department = Employee.Department,
+        //            JoinedDate = Employee.JoinedDate,
+        //            Image = CompleteEmployeePhotoPath
 
-                });
+        //        });
 
-                _editCustomerId = 0;
-            }
+        //        _editCustomerId = 0;
+        //    }
 
-            //nameEntryField.Text = string.Empty;
-            //emailEntryField.Text = string.Empty;
-            //mobileEntryField.Text = string.Empty;
+        //    //nameEntryField.Text = string.Empty;
+        //    //emailEntryField.Text = string.Empty;
+        //    //mobileEntryField.Text = string.Empty;
 
            
-            listView.ItemsSource = await _dbService.GetEmployees();
+        //    listView.ItemsSource = await _dbService.GetEmployees();
 
-        }
-
+        //}
+        //--------------------------------------------trial code---------------------------------
         [RelayCommand]
         async Task SaveButton()
         {

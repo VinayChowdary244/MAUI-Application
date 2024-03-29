@@ -7,22 +7,73 @@
     xmlns:local="clr-namespace:Application"
     xmlns:views="clr-namespace:Application.Views"
     xmlns:viewModels="clr-namespace:Application.ViewModels"
-    FlyoutBehavior="Disabled"
+    FlyoutBehavior="Locked"
+    
     Title="Application">
 
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid
+             x:Name="Header"
+             Margin="0"
+             Padding="20"
+             BackgroundColor="{StaticResource White}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Image
+                 x:Name="Logo"
+                 Grid.Row="0"
+                 Margin="0"
+                 Source="dotnet_bot.svg"/>
+                <Label
+                 x:Name="AppName"
+                 Grid.Row="1"
+                 Margin="0"
+                 FontAttributes="Bold"
+                 FontSize="20"
+                 HorizontalTextAlignment="Center"
+                 VerticalTextAlignment="End"
+                 Text="Employee Management"
+                 TextColor="black"/>
 
-    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
-        <Tab Title="Domestic"
-             Icon="dotnet_bot.png">
-             </Tab>
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+    <!--<FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Add_Employee"
+                  Icon="dotnet_bot.png"
+                  ContentTemplate="{DataTemplate views:AddEmployee}"
+                  Route="AddEmployee" />
+        <ShellContent Title="All_Employees"
+                  Icon="dotnet_bot.png"
+                  ContentTemplate="{DataTemplate views:EmployeesList}" />
+    </FlyoutItem>-->
+
+    <FlyoutItem Title="Add Employee" Icon="dotnet_bot.png">
+        <ShellContent Title="Add Employee"
+                      ContentTemplate="{DataTemplate views:AddEmployee}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Employees List" Icon="dotnet_bot.png">
+        <ShellContent Title="Employees List"
+                      ContentTemplate="{DataTemplate views:EmployeesList}" />
+    </FlyoutItem>
+
+    <!--<FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+       
         <ShellContent Title="Add_Employee"
               Icon="dotnet_bot.png"
               ContentTemplate="{DataTemplate views:AddEmployee}" />
         <ShellContent Title="All_Employees"
               Icon="dotnet_bot.png"
               ContentTemplate="{DataTemplate views:EmployeesList}" />
+        
+        
 
-        <!--<ShellContent Title="MainPage"
+        --><!--<ShellContent Title="MainPage"
                       Icon="dotnet_bot.png"
                       ContentTemplate="{DataTemplate views:MainPage}" />-->
         <!--<ShellContent Title="Elephants"
@@ -30,8 +81,8 @@
                       ContentTemplate="{DataTemplate views:ElephantsPage}" />
         <ShellContent Title="Bears"
                       Icon="bear.png"
-                      ContentTemplate="{DataTemplate views:BearsPage}" />-->
-    </FlyoutItem>
+                      ContentTemplate="{DataTemplate views:BearsPage}" />--><!--
+    </FlyoutItem>-->
 
     <!--<ShellContent Title="About"
                   Icon="info.png"

@@ -9,6 +9,34 @@
     {
       "AbsoluteMoniker": "D:0:0:{81E8BD34-77FD-45E4-995C-D9468EC6438C}|Application\\Application.csproj|d:\\games\\maui\\application\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81E8BD34-77FD-45E4-995C-D9468EC6438C}|Application\\Application.csproj|solutionrelative:application\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E8BD34-77FD-45E4-995C-D9468EC6438C}|Application\\Application.csproj|d:\\games\\maui\\application\\viewmodels\\employeeslistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E8BD34-77FD-45E4-995C-D9468EC6438C}|Application\\Application.csproj|solutionrelative:application\\viewmodels\\employeeslistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E8BD34-77FD-45E4-995C-D9468EC6438C}|Application\\Application.csproj|d:\\games\\maui\\application\\viewmodels\\addemployeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E8BD34-77FD-45E4-995C-D9468EC6438C}|Application\\Application.csproj|solutionrelative:application\\viewmodels\\addemployeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E8BD34-77FD-45E4-995C-D9468EC6438C}|Application\\Application.csproj|d:\\games\\maui\\application\\views\\employeeslist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{81E8BD34-77FD-45E4-995C-D9468EC6438C}|Application\\Application.csproj|solutionrelative:application\\views\\employeeslist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E8BD34-77FD-45E4-995C-D9468EC6438C}|Application\\Application.csproj|d:\\games\\maui\\application\\views\\employeeslist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E8BD34-77FD-45E4-995C-D9468EC6438C}|Application\\Application.csproj|solutionrelative:application\\views\\employeeslist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E8BD34-77FD-45E4-995C-D9468EC6438C}|Application\\Application.csproj|d:\\games\\maui\\application\\views\\addemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E8BD34-77FD-45E4-995C-D9468EC6438C}|Application\\Application.csproj|solutionrelative:application\\views\\addemployee.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E8BD34-77FD-45E4-995C-D9468EC6438C}|Application\\Application.csproj|d:\\games\\maui\\application\\viewmodels\\employeesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E8BD34-77FD-45E4-995C-D9468EC6438C}|Application\\Application.csproj|solutionrelative:application\\viewmodels\\employeesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E8BD34-77FD-45E4-995C-D9468EC6438C}|Application\\Application.csproj|d:\\games\\maui\\application\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81E8BD34-77FD-45E4-995C-D9468EC6438C}|Application\\Application.csproj|solutionrelative:application\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +46,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeesViewModel.cs",
+              "DocumentMoniker": "D:\\Games\\Maui\\Application\\ViewModels\\EmployeesViewModel.cs",
+              "RelativeDocumentMoniker": "Application\\ViewModels\\EmployeesViewModel.cs",
+              "ToolTip": "D:\\Games\\Maui\\Application\\ViewModels\\EmployeesViewModel.cs",
+              "RelativeToolTip": "Application\\ViewModels\\EmployeesViewModel.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T05:07:09.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeesList.xaml",
+              "DocumentMoniker": "D:\\Games\\Maui\\Application\\Views\\EmployeesList.xaml",
+              "RelativeDocumentMoniker": "Application\\Views\\EmployeesList.xaml",
+              "ToolTip": "D:\\Games\\Maui\\Application\\Views\\EmployeesList.xaml",
+              "RelativeToolTip": "Application\\Views\\EmployeesList.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-29T05:05:43.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeesList.xaml.cs",
+              "DocumentMoniker": "D:\\Games\\Maui\\Application\\Views\\EmployeesList.xaml.cs",
+              "RelativeDocumentMoniker": "Application\\Views\\EmployeesList.xaml.cs",
+              "ToolTip": "D:\\Games\\Maui\\Application\\Views\\EmployeesList.xaml.cs",
+              "RelativeToolTip": "Application\\Views\\EmployeesList.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T05:05:40.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeesListViewModel.cs",
+              "DocumentMoniker": "D:\\Games\\Maui\\Application\\ViewModels\\EmployeesListViewModel.cs",
+              "RelativeDocumentMoniker": "Application\\ViewModels\\EmployeesListViewModel.cs",
+              "ToolTip": "D:\\Games\\Maui\\Application\\ViewModels\\EmployeesListViewModel.cs",
+              "RelativeToolTip": "Application\\ViewModels\\EmployeesListViewModel.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T05:05:32.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddEmployeeViewModel.cs",
+              "DocumentMoniker": "D:\\Games\\Maui\\Application\\ViewModels\\AddEmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "Application\\ViewModels\\AddEmployeeViewModel.cs",
+              "ToolTip": "D:\\Games\\Maui\\Application\\ViewModels\\AddEmployeeViewModel.cs",
+              "RelativeToolTip": "Application\\ViewModels\\AddEmployeeViewModel.cs",
+              "ViewState": "AQIAAOkAAAAAAAAAAAAswOgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T12:17:09.801Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -41,9 +134,35 @@
               "RelativeDocumentMoniker": "Application\\AppShell.xaml",
               "ToolTip": "D:\\Games\\Maui\\Application\\AppShell.xaml",
               "RelativeToolTip": "Application\\AppShell.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACUAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-28T12:01:23.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddEmployee.xaml.cs",
+              "DocumentMoniker": "D:\\Games\\Maui\\Application\\Views\\AddEmployee.xaml.cs",
+              "RelativeDocumentMoniker": "Application\\Views\\AddEmployee.xaml.cs",
+              "ToolTip": "D:\\Games\\Maui\\Application\\Views\\AddEmployee.xaml.cs",
+              "RelativeToolTip": "Application\\Views\\AddEmployee.xaml.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T05:07:29.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Games\\Maui\\Application\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\Employee.cs",
+              "ToolTip": "D:\\Games\\Maui\\Application\\Models\\Employee.cs",
+              "RelativeToolTip": "Application\\Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T05:05:58.185Z",
               "EditorCaption": ""
             }
           ]

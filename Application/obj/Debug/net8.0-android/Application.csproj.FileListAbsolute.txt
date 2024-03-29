@@ -2106,3 +2106,4 @@ D:\Games\Maui\Application\obj\Debug\net8.0-android\stamp\_ConvertResourcesCases.
 D:\Games\Maui\Application\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 D:\Games\Maui\Application\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 D:\Games\Maui\Application\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+D:\Games\Maui\Application\obj\Debug\net8.0-android\Application.sourcelink.json
