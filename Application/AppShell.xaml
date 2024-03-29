@@ -7,17 +7,21 @@
     xmlns:local="clr-namespace:Application"
     xmlns:views="clr-namespace:Application.Views"
     xmlns:viewModels="clr-namespace:Application.ViewModels"
-    FlyoutBehavior="Locked"
-    
+    Shell.FlyoutBehavior="Flyout"
+    Shell.NavBarIsVisible="True"
+  Shell.BackgroundColor="SkyBlue"
     Title="Application">
 
+  
+    
+    
     <Shell.FlyoutHeaderTemplate>
         <DataTemplate>
             <Grid
              x:Name="Header"
              Margin="0"
              Padding="20"
-             BackgroundColor="{StaticResource White}">
+             BackgroundColor="LightBlue">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="100"/>
                     <RowDefinition Height="*"/>
@@ -41,6 +45,7 @@
             </Grid>
         </DataTemplate>
     </Shell.FlyoutHeaderTemplate>
+   
 
     <!--<FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="Add_Employee"
@@ -53,15 +58,37 @@
     </FlyoutItem>-->
 
     <FlyoutItem Title="Add Employee" Icon="dotnet_bot.png">
+        <Tab>
         <ShellContent Title="Add Employee"
                       ContentTemplate="{DataTemplate views:AddEmployee}" />
+        </Tab>
     </FlyoutItem>
 
     <FlyoutItem Title="Employees List" Icon="dotnet_bot.png">
+        <Tab>
         <ShellContent Title="Employees List"
                       ContentTemplate="{DataTemplate views:EmployeesList}" />
+        </Tab>
     </FlyoutItem>
 
+    <FlyoutItem Title="Demo Page" Icon="dotnet_bot.png">
+        <Tab>
+        <ShellContent Title="Demo Page"
+                  ContentTemplate="{DataTemplate views:NewPage1}" />
+        </Tab>
+    </FlyoutItem>
+
+    <Shell.FlyoutFooter>
+        <StackLayout BackgroundColor="LightBlue">
+            <Label Text=".Net MAUI Assignment"
+              TextColor="Black"
+              FontAttributes="Bold"
+              HorizontalOptions="Center" />
+            <Label Text = "Sample footer text"
+              TextColor="Black"
+              HorizontalOptions="Center" />
+        </StackLayout>
+    </Shell.FlyoutFooter>
     <!--<FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
        
         <ShellContent Title="Add_Employee"

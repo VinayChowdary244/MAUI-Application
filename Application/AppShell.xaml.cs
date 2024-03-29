@@ -12,7 +12,10 @@ namespace Application
 
             Routing.RegisterRoute(nameof(EmployeesList), typeof(EmployeesList));
 
-            
+            Routing.RegisterRoute(nameof(NewPage1), typeof(NewPage1));
+
+
+
 
 
 
